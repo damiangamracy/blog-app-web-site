@@ -1,0 +1,10 @@
+{
+  "name": "blog-app-web-site",
+  "version": "0.1.0",
+  "description": "blog web site",
+  "main": "index.js",
+  "repository": "https://github.com/damiangamracy/blog-app-web-site.git",
+  "author": "Damian Gamracy <damiangamracy@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
