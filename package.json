@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack --config .webpackrc.js --mode development",
+    "build": "webpack --config .webpackrc.js --mode production",
+    "start": "webpack-dev-server --config .webpackrc.js --open --mode development",
     "format": "run-p format:*",
     "format:es": "prettier src/**/*.js --write",
     "format:style": "prettier src/**/*.scss --parser scss --write",
