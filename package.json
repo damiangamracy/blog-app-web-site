@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "webpack --config .webpackrc.js --mode development",
     "build": "webpack --config .webpackrc.js --mode production",
-    "start": "webpack-dev-server --config .webpackrc.js --open --mode development",
+    "start": "webpack-dev-server --config .webpackrc.js --mode development --open",
     "format": "run-p format:*",
     "format:es": "prettier **/*.js --write",
     "format:style": "prettier **/*.scss --parser scss --write",
